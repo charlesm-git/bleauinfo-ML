@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "machine-learning"
+version = "0.1.0"
+description = ""
+authors = ["cmareau-git <charles_mareau@hotmail.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+sqlalchemy = "^2.0.41"
+ipykernel = "^6.29.5"
+numpy = "^2.3.1"
+pandas = "^2.3.1"
+scikit-learn = "^1.7.1"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
