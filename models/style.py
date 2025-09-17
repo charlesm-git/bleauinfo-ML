@@ -20,5 +20,3 @@ class Style(Base):
     boulders: Mapped[List["models.boulder.Boulder"]] = relationship(
         secondary=boulder_style_table, back_populates="styles"
     )
-    def __repr__(self):
-        return f"<Style(style: {self.style})>"
